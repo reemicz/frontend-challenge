@@ -7,7 +7,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 html {
@@ -23,19 +22,18 @@ html {
 }
 
 .container {
-  height: 667px; /* height for iphone 8 */
+  height: 100%;
   margin: auto;
-  width: 100%; /* width for iphone 8 */
+  width: 100%;
 }
 
 .top-nav {
-  position: fixed;
+ position: absolute;
 }
 
 header {
   background-color: #BBDCF0;
   height: 74px;
-  width: 100% auto;
 }
 
 .status-bar {
@@ -69,7 +67,6 @@ h1 {
     font-weight: bold;
     line-height: 1.8em;
     margin-left: 35px;
-    text-transform: capitalize;
 }
 
 /*map for washington&state*/
@@ -85,7 +82,6 @@ h1 {
   background-color: #BBDCF0;
   display: flex;
   height: 44px;
-  text-transform: uppercase;
   width: 100%;
 }
 
@@ -113,8 +109,10 @@ h4 {
 }
 
 .timetable {
+  height: 285px;
   padding-top: 372px;
 }
+
 p {
   font-size: 14px;
   font-style: arial, sans-serif;
@@ -122,7 +120,6 @@ p {
 }
 
  ul {
-   display: flex;
    overflow-y: scroll;
 }
 
@@ -134,7 +131,7 @@ p {
    display: flex;
    flex-wrap: wrap;
    height: 70px;
-   width: 375px;
+   width: 100%;
  }
 
 /* div class="bus-frame" */
@@ -225,14 +222,37 @@ p {
 
 }
 
-/* Possible use for alerts instead of icon */
-/*.alert-box {
-  background-color: #EC3323;
+.going-to-alert {
+  background-color: rgba(236, 51,35, 50%);
   border-bottom: solid 2px #BBDCF0;
   height: 70px;
-  padding-left: 88px;
-  width: 287px;
-} */
+  line-height: 22px;
+  padding-left: 14px;
+  padding-top: 14px;
+  width: 180px;
+}
+
+.destination-alert {
+  font-weight: bold;
+}
+
+.direction-alert {
+  color: #47434A;
+  font-weight: lighter;
+  letter-spacing: .5px; /*distance between letters */
+  opacity: -50%;
+}
+
+.time-alert {
+  background-color: rgba(236, 51,35, 50%);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  line-height: 21px;
+  padding: 14px 10px;
+  text-align: right;
+  width: 100%;
+}
 
 footer {
   padding-top: 667px;
