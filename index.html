@@ -6,7 +6,7 @@
     <meta name="author" content="Tullie Helene"> <!-- denotes the author of this markup -->
     <meta name="description" content="This is the first Frontend app design by Tullie Helene">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/style.css">
      <link rel="reset" href="reset.css">
   </head>
 
@@ -14,7 +14,7 @@
       <div class="container">
 
         <!--Heading and Navigation-->
-      <div class="top-nav">
+
         <header>
           <div class="status-bar">
             <img src="images/Status-Bar.png" class="image1" alt="Apple Status Bar"> <!-- Image saved inimages file from iOS-->
@@ -25,7 +25,6 @@
               <img src="images/Chevron.png" class="image2" alt="Apple Back Chevron (<)">
             </div>
               <h1>Washington & State</h1>
-            </nav>
         </header>
 
         <!-- Map Section-->
@@ -35,15 +34,14 @@
 
 
       <!-- Bus List results table-->
-        <section class="bus-information">
+
           <div class="bus-list">
             <h4 class="bus-header">BUS</h4>
             <h4 class="direction-header">DESTINATION</h4>
             <h4 class="time-header">TIME</h4>
           </div>
-        </div>
 
-          <section class="timetable">
+          <div class="timetable">
                     <ul>
                       <li class="bus"><!--#1. bus 151-->
                         <div class="bus-frame">
@@ -140,53 +138,17 @@
                           <p class="bus-no">4</p>
                         </div>
 
-                        <div class="going-to-alert">
-                          <p class="destination-alert">Cottage Grove<br>
-                          <span class="direction-alert">Out of Service
+                        <div class="going-to-oos">
+                          <p class="destination-oos">Cottage Grove<br>
+                          <span class="direction-oos">Out of Service
                           </span></p>
                         </div>
 
-                        <div class="time-alert">
+                        <div class="time-oos">
                           <p class="resume">Resumes<br></p>
                           <p class="resume-time">
                         <span class="span-resume">12:10am</span></p>
                         </div>
-                      </li>
-                    </ul>
-
-                    <ul>
-                      <li class="bus"><!--# 7 bus 20-->
-                        <div class="bus-frame">
-                          <p class="bus-no">60</p>
-                        </div>
-
-                        <div class="going-to-alert">
-                          <p class="destination">Madison<br>
-                          <span class="direction">Out of Service</span></p>
-                        </div>
-
-                        <div class="time-alert">
-                          <p class="resume">Resumes<br>
-                        <span class="resume-time">12:10am</span></p>
-                        </div>
-                      </li>
-                    </ul>
-
-                    <ul>
-                      <li class="bus"><!--#8. bus 157-->
-                        <div class="bus-frame">
-                          <p class="bus-no">157</p>
-                        </div>
-
-                        <div class="going-to-alert">
-                          <p class="destination">Streeterville/Taylor<br>
-                          <span class="direction">Out of Service</span></p>
-                        </div>
-
-                        <div class="time-alert">
-                          <p class="resume">Resumes<br>
-                        <span class="resume-time">06:00am</span></p>
-                          </div>
                       </li>
                     </ul>
 
@@ -207,11 +169,43 @@
                       </li>
                     </ul>
 
-                  </section>
-                </section>
-              <footer>
-              </footer>
+                    <ul>
+                      <li class="bus"><!--# 7 bus 20-->
+                        <div class="bus-frame">
+                          <p class="bus-no">60</p>
+                        </div>
 
+                        <div class="going-to-oos">
+                          <p class="destination-oos">Madison<br>
+                          <span class="direction-oos">Out of Service</span></p>
+                        </div>
+
+                        <div class="time-oos">
+                          <p class="resume">Resumes<br>
+                        <span class="resume-time">12:10am</span></p>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li class="bus"><!--#8. bus 157-->
+                        <div class="bus-frame">
+                          <p class="bus-no">157</p>
+                        </div>
+
+                        <div class="going-to-oos">
+                          <p class="destination-oos">Streeterville/Taylor<br>
+                          <span class="direction-oos">Out of Service</span></p>
+                        </div>
+
+                        <div class="time-oos">
+                          <p class="resume">Resumes<br>
+                        <span class="resume-time">06:00am</span></p>
+                          </div>
+                      </li>
+                    </ul>
+
+                  </div>
               </div>
           </body>
         </html>
