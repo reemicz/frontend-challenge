@@ -35,6 +35,11 @@ header {
   height: 20px;
 }
 
+img.image1 {
+  height: 20px;
+  width: 100%;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
