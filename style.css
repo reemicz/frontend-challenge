@@ -77,6 +77,11 @@ h1 {
   width: 100%; /* width of map */
 }
 
+img.image3 {
+  height 264px;
+  width: 100%;
+}
+
 /* bus listing*/
 .bus-list {
   display: flex;
